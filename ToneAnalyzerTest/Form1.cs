@@ -26,9 +26,9 @@ namespace ToneAnalyzerTest
             string username;
             string password;
 
-            // Set the URL to the Tone Analyzer service and creds for the instance of the service ToneAnalyzer-tutorial-dsiebold
+            // Set the URL to the Tone Analyzer service and creds for the instance of the your service 
             // Be sure to set these vars or the text controls with the username and password of your instance of the Tone Analyzer service
-            baseURL = "https://gateway.watsonplatform.net/tone-analyzer-beta/api/v3/tone?version=2016-02-11&sentences=false";
+            baseURL = "https://gateway.watsonplatform.net/tone-analyzer/api/v3/tone?version=2016-05-19&sentences=false";
             username = txtUsername.Text;
             password = txtPassword.Text;
 
